@@ -1,11 +1,16 @@
 # cliargparser
-A Python library for building command-line interfaces with Options, Commands, and Operands. Designed for simplicity from both user's perspective and parser's perspective.
+A Python library for building command-line interfaces with Options, Commands, and Operands.
+Designed for simplicity from both user's perspective and parser's perspective.
+
 It is opinionated for sake of determinism and ambiguity-safe.
 The parser is feed-forward (single-pass, no backtracking).
 
 The philosophy: all CLI arguments fall into three types:
+
 Option – Named argument that may take values.
+
 Command – Subcommand that triggers specific behavior.
+
 Operand – Positional argument representing input data.
 
 
